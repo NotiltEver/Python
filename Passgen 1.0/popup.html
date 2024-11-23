@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Password Generator</h1>
+  
+  <label for="length">Längd på lösenord:</label>
+  <input type="number" id="length" min="1" value="12"><br><br>
+
+  <input type="checkbox" id="lowercase" checked>
+  <label for="lowercase">Include lower Case</label><br>
+
+  <input type="checkbox" id="uppercase" Checked>
+  <label for="uppercase">Include Capital letters</label><br>
+
+  <input type="checkbox" id="digits" checked>
+  <label for="digits">Include Numbers</label><br>
+
+  <input type="checkbox" id="special" checked>
+  <label for="special">Include Special Characters</label><br><br>
+
+  <button id="generate-btn">Generate Password</button><br><br>
+
+  <label for="password">Password:</label>
+  <input type="text" id="password" readonly><br>
+
+  <script src="popup.js"></script>
+</body>
+</html>
